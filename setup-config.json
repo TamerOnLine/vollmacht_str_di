@@ -4,5 +4,15 @@
   "entry_point": "main.py",
   "requirements_file": "requirements.txt",
   "venv_dir": "venv",
-  "python_version": "3.12"
+  "python_version": "3.12",
+  "pdf_options": {
+    "leftMargin": 40,
+    "rightMargin": 40,
+    "topMargin": 36,
+    "bottomMargin": 36,
+    "signature_width_pt": 180,
+    "signature_max_height_pt": 80,
+    "title_i18n": "app.title",
+    "show_hint": true
+  }
 }
